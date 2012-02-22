@@ -1,0 +1,5 @@
+To be used with pyload (http://pyload.org/).
+
+Move AntiGate.py in ~/.pyload/userplugins/hooks/ (~/.pyload being the default home for pyload).
+
+Replace API_KEY by your api key from antigate.com.
