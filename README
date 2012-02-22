@@ -1,5 +1,15 @@
-To be used with pyload (http://pyload.org/).
+It is a plugin for pyload (http://pyload.org/).
+A description of pyload can be found at https://bitbucket.org/spoob/pyload/raw/7dcc22c4b634/README.
+Basically it is a software to automatically download from hosters like rapidshare.com and fileshare.com (for a list of supported hosters please read http://pyload.org/hoster)
 
+It makes automatic call to the url: antigate.com/in.php using the apiKey to resolve captcha.
+And it also calls antigate.com/in.php to obtain the results of the captcha and the available credits.
+If a captcha is not accepted by the hoster a reclaim is made automatically.
+
+Based on the pyload plugin for CaptchaTrader.com.
+
+Install:
 Move AntiGate.py in ~/.pyload/userplugins/hooks/ (~/.pyload being the default home for pyload).
-
 Replace API_KEY by your api key from antigate.com.
+
+
